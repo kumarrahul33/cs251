@@ -8,5 +8,5 @@ using namespace std;
 int main() {
     string s;
     cin >> s;
-    cout << hash_string(s) << endl;
+    cout << hash_string(s, 31) << endl;
 }
